@@ -1,4 +1,4 @@
-# GodotDocsMaker [![Build Status](https://secure.travis-ci.org/peterwilli/godotdocsmaker.png?branch=master)](http://travis-ci.org/peterwilli/godotdocsmaker)
+# GodotDocsMaker [![Build Status](https://travis-ci.org/CodeBuffet/GodotDocsMaker.svg)](https://travis-ci.org/CodeBuffet/GodotDocsMaker)
 
 Automatic documentation generator for the Godot Engine
 
