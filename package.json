@@ -1,0 +1,40 @@
+{
+  "name": "godotdocsmaker",
+  "version": "0.0.0",
+  "main": "lib/godotdocsmaker.js",
+  "description": "Automatic documentation generator for the Godot Engine",
+  "homepage": "http://www.godotengine.org",
+  "bugs": "https://github.com/peterwilli/godotdocsmaker/issues",
+  "author": {
+    "name": "Peter Willemsen",
+    "email": "peter@codebuffet.co",
+    "url": "http://codebuffet.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterwilli/godotdocsmaker"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-coffee": "~0.9.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-coffeelint": "~0.0.8",
+    "grunt-simple-mocha": "~0.4.0",
+    "should": "~3.1.2",
+    "matchdep": "~0.3.0",
+    "mocha-cakes": "~0.9.0",
+    "grunt": "~0.4.2"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "godotdoc": "src/lib/godotdocsmaker.coffee"
+  },
+  "dependencies": {
+    "nomnom": "~1.6.2"
+  }
+}
